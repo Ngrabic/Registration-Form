@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListOfPeopleAcitivity">
+
+    <ImageView
+        android:id="@+id/imgViewId"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginHorizontal="150dp"
+        android:layout_marginVertical="20dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/showPersonalDataId"
+        android:layout_below="@+id/imgViewId"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameDataId"
+            android:textSize="20sp"
+            android:layout_margin="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:id="@+id/emailDataId"
+            android:layout_below="@+id/nameDataId"
+            android:textSize="20sp"
+            android:layout_margin="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:id="@+id/passDataId"
+            android:layout_below="@+id/emailDataId"
+            android:textSize="20sp"
+            android:layout_margin="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:id="@+id/genderDataId"
+            android:layout_below="@+id/passDataId"
+            android:textSize="20sp"
+            android:layout_margin="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Conutry"
+            android:id="@+id/countryDataId"
+            android:layout_below="@+id/genderDataId"
+            android:textSize="20sp"
+            android:layout_margin="20sp"/>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
